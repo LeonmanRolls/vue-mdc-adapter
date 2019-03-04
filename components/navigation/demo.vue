@@ -39,9 +39,4 @@ export default {
 .mdc-demo .mdc-top-app-bar {
   position: relative;
 }
-
-.mdc-demo .navigation {
-  width: 100%;
-  height: 100%;
-}
 </style>

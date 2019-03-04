@@ -69,7 +69,9 @@
   },
   "dependencies": {
     "@material/tabs": "0.38.0",
-    "material-components-web": "0.38.2"
+    "material-components-web": "0.38.2",
+    "mdsc-navigation": "1.1.2",
+    "mst-navigation": "0.0.0"
   },
   "peerDependencies": {
     "vue": "^2.5.6"

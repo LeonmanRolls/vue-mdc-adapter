@@ -1,17 +1,29 @@
 <template>
-<div class="navigation">
-  <div class="navigation__primary">
-    <div class="navigation__top-items-container">
+  <header
+    ref="root"
+    :class="rootClasses"
+    :style="rootStyles"
+    v-on="$listeners">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <a
+          v-if="haveNavigationIcon"
+          ref="navigationIcon"
+          :class="naviconClasses"
+          href="#"
+          v-on="listeners">{{ icon }}</a>
+        <span
+          v-if="!!title"
+          class="mdc-top-app-bar__title">{{ title }}</span>
+      </section>
+      <section
+        v-if="$slots.default"
+        class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+        <slot/>
+      </section>
     </div>
-    <div class="navigation__bottom-items-container">
-    </div>
-    <div class="navigation__footer">
-
-    </div>
-  </div>
-  <div class="navigation__secondary"></div>
-  <div class="navigation__content"></div>
-</div>
+    <slot name="tabs"/>
+  </header>
 </template>
 
 <script>

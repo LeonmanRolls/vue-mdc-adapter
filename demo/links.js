@@ -42,6 +42,7 @@ export default [
   link('drawer', icSideNavigation),
   link('elevation', icCard),
   link('fab', icButton, 'FAB', 'Floating Action Button'),
+  link('navigation', icButton, 'TEST', 'Test action button'),
   link('grid-list', icCard),
   link('icon', icComponent),
   link('icon-toggle', icComponent),
