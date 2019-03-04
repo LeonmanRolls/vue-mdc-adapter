@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{163:function(t,e,n){t.exports=n(73)},73:function(t,e,n){"use strict";n.r(e);var s=n(0),i=Object(s.a)(null,function(){this.$createElement;this._self._c;return this._m(0)},[function(){var t=this.$createElement,e=this._self._c||t;return e("article",[e("h2",[this._v("Usage")])])}],!1,null,null,null);e.default=i.exports}}]);
+//# sourceMappingURL=48.05aa59bea3d4079e54c6.js.map
